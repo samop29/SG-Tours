@@ -1,0 +1,8 @@
+#Hero {
+  background-image: url("./assets/mainbg.webp");
+  background-size: cover;
+  background-position: 0 0px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 100;
+}
