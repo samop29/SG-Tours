@@ -12,7 +12,18 @@
     <title>Vite + React</title>
   </head>
   <body>
+    <div
+      class="w-full h-full bg-white fixed z-50 flex justify-center items-center"
+      id="loder">
+      <img src="./src/assets/lod.gif" class="w-fit h-full contain" alt="" />
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      const loder = document.getElementById("loder");
+      window.addEventListener("load", () => {
+        loder.style.display = "none";
+      });
+    </script>
   </body>
 </html>
